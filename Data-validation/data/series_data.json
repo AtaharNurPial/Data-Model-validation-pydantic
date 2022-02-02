@@ -1,0 +1,41 @@
+[
+    {
+      "title": "Game of Thrones",
+      "subtitle": "Winter is coming",
+      "author": "Goerge R.R Martin",
+      "publisher": "HBO",
+      "imdb_rating": "9.5",
+      "runtime": "50 Mins",
+      "episode": 68 ,
+      "cast": {
+        "Jon Snow": "Kit Harrington", "Rob Stark": "Richard Madden", "Cersei Lannister": "Lina Headey",
+        "Tyrion Lannister": "Peter Dinklage", "Jaime Lannister": "Nikolaj Coster-Waldau",
+        "Tormund Giantsbane": "Kristofer Hivju","Margaery Tyrell": "Natalie Dormer"
+      }
+    },
+    {
+      "title": "Silicon Valley",
+      "subtitle": "Where did it go?",
+      "author": "Mike Judge",
+      "publisher": "HBO",
+      "imdb_rating": "9.5",
+      "runtime": "30 Mins",
+      "episode": 60,
+      "cast": {
+        "Erlich Bachman":"T.J Miller","Bertrand Gylfoyle":"Martin Starr","Gavin Belson": "Matt Ross"
+      }
+    },
+    {
+      "title": "Friends",
+      "subtitle": "Pivot!!! piiiivoooooot!!!!",
+      "author": "David Crane",
+      "publisher": "WB",
+      "imdb_rating": 9.5,
+      "runtime": "30 Mins",
+      "episode": 236,
+      "cast": {
+        "Phoebe Buffay":"Lisa Kudraw","Chandlar Bing":"Mathew Perry","Ross Geller": "David Schwimmer", 
+        "Joey Tribbiani": "Matt LaBlanc"
+      }
+    }
+]

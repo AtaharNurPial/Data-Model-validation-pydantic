@@ -1,4 +1,5 @@
 import json
+from pprint import pprint
 # from pydantic import BaseModel
 from typing import Optional, List
 import pydantic
@@ -39,11 +40,12 @@ class Book(pydantic.BaseModel):
         return value
 
 def main() -> None:
-    with open("./data.json") as file:
+    with open("data/book_data.json") as file:
         data = json.load(file)
         books: List[Book] = [Book(**item) for item in data]
         # print(books[0])
-        print(books[0].dict(exclude={"isbn_10"}))
+        # print(books[0].dict(exclude={"isbn_10"}))
+        pprint(books)
 
         # print(data[0].title)
 
