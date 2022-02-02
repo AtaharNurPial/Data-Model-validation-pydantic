@@ -19,6 +19,7 @@ class Book(pydantic.BaseModel):
     isbn_13: Optional[str]
     subtitle: Optional[str]
 
+    '''validating isbn_10'''
     @pydantic.validator("isbn_10")
     @classmethod
     def isbn_10_valid(cls, value) -> None:
